@@ -4,3 +4,6 @@ app/build/*
 build/intermediates/*
 weekend.iml
 app/app.iml
+*.pyc
+*.pyo
+bin
