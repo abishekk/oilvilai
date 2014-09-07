@@ -10,6 +10,6 @@ urlpatterns = patterns('',
     # url(r'^blog/', include('blog.urls')),
 
     # url(r'^admin/', include(admin.site.urls)),
-    (r'^upload/', include('serverStub.uploader.urls')),
+    (r'^upload/', include('uploader.urls')),
     (r'^$', RedirectView.as_view(url='/upload/list/')),
 ) + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
